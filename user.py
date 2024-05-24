@@ -5,3 +5,5 @@ class User:
         self.stuff = 1
 
         self.skibidi = 'gyattt'
+
+        self.rizz = 500
