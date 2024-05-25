@@ -1,4 +1,5 @@
-"""
-This is to test the main function
-"""
-Print("You look Extra Sigma today !")
+from test_game_environments import Login
+
+
+if __name__ == '__main__':
+    Login.start_up()

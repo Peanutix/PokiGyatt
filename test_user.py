@@ -1,7 +1,15 @@
-skibidi_dob_dob = 1
+"""
+Player types:
+- User
+- Opponent
+"""
 
-sigma = 10
 
-sigma += skibidi_dob_dob
+class User:
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
 
-sigma_wigma = "bro get better"
+    def __str__(self):
+        return f'Username: {self.username}, Password: {self.password}'
+
